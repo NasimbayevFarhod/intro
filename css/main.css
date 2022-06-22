@@ -166,38 +166,12 @@ color: #FFFFFF;
   border-radius: 5px;
 }
 
-.hero-input:not(:-moz-placeholder-shown):not(:focus):invalid ~ .error
-{
-  opacity: 1;
-}
-
-.hero-input:not(:-ms-input-placeholder):not(:focus):invalid ~ .error
-{
-  opacity: 1;
-}
-
 .hero-input:not(:placeholder-shown):not(:focus):invalid ~ .error
 {
   opacity: 1;
 }
 
-.hezo-input:not(:-moz-placeholder-shown):not(:focus):invalid
-{
-  background-image: url(../image/error.svg);
-  background-repeat: no-repeat;
-  background-size: 24px;
-  background-position: right 27px center;
-}
-
-.hezo-input:not(:-ms-input-placeholder):not(:focus):invalid
-{
-  background-image: url(../image/error.svg);
-  background-repeat: no-repeat;
-  background-size: 24px;
-  background-position: right 27px center;
-}
-
-.hezo-input:not(:placeholder-shown):not(:focus):invalid
+.hero-input:not(:placeholder-shown):not(:focus):invalid
 {
   background-image: url(../image/error.svg);
   background-repeat: no-repeat;
